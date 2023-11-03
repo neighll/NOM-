@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><a href="https://www.example.com">Click here to visit Example.com</a></title>
+    <style>
+        /* CSS for layout styling */
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .insert {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="insert">
+            <h2>Insert 1</h2>
+            <p>This is the content of Insert 1.</p>
+        </div>
+        <div class="insert">
+            <h2>Insert 2</h2>
+            <p>This is the content of Insert 2.</p>
+        </div>
+        <div class="insert">
+            <h2>Insert 3</h2>
+            <p>This is the content of Insert 3.</p>
+        </div>
+    </div>
+</body>
+</html>
